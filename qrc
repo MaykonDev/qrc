@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+
+# ATENÇÃO: O projeto foi criado para ser imple
+# mentado em aplicações, logo que, ele seria
+# inviável rodar em um prompt de comando,
+# então se precisa de um leitor desses em
+# seu projeto, sinta-se a vontade de usar!
+
+import qrcode
+
+while True:
+    link = input("Link para gerar o qr: ")
+    qr = qrcode.QRCode(
+            version=1,
+            box_size=4,
+            border=5)
+
+    qr.add_data(link)
+    qr.make(fit=True)
+    img = qr.code_image(fill='black', back_color='white')
+    img.show()
