@@ -2,20 +2,10 @@
 <h2>Gerador de QRCode</h2>
 <img src=https://c.tenor.com/cgoYGj4rhcUAAAAM/qr-code-codigo-qr.gif>
 
-<p>Projeto criado para gerar imagens qrcode a partir de links, pode ser implementado em projetos e softwares!</p>
+<p>Esse projeto foi criado para ser implementado em algum software que precise de um leitor de qrcode!</p>
 
-__Testado em:__
+<strong>Biblioteca(s) usada(s):</strong></br>
 
-<i>->Termux</i></br>
-<i>->Linux</i></br>
-<i>->Kali NetHunter</i></br></br>
-___Instalação e uso:___
-
-_-->Linux:_
-    
-    apt-get install git -y
-    apt-get install python3 -y
-    pip install qrcode
-    git clone https://github.com/MaykonDev/qrc
-    cd qrc
-    python qrc
+<ul type=square>
+<li>qrcode
+</ul>
