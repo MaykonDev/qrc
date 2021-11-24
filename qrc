@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+
+import qrcode
+
+while True:
+    print("Gerador de QRCode via CLI!")
+    link = input("Link para gerar o qr: ")
+    qr = qrcode.QRCode(
+            version=1,
+            box_size=4,
+            border=5)
+
+    qr.add_data(link)
+    qr.make(fit=True)
+    img = qr.code_image(fill='black', back_color='white')
+    img.show()
