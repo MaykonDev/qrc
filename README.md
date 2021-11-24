@@ -4,7 +4,7 @@
 
 <p>Projeto criado para gerar imagens qrcode a partir de links, pode ser implementado em projetos e softwares!</p>
 
-__Dipositivos testados:__
+__Testado em:__
 
 <i>->Termux</i></br>
 <i>->Linux</i></br>
